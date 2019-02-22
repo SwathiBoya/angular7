@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    }
+    div#container {
+    padding:11px;
+    background:#cbae6d;
+    display: flex;
+    height: 10%;
+    }
+    div#container2 {
+    padding:11px;
+    display: flex;
+    height: 10%;
+    background-color: red;
+    }
+    .leftDiv {
+    width:20%;
+    padding:0px;
+    margin-left: 10px;
+    }
+    .rightDiv {
+    width:80%;
+    padding:10px;
+    margin-left: 10px;
+    }
+    .welcomDiv{
+    width:100%;
+    padding:10px;
+    margin-left: 10px;
+    }
+    .footerDiv {
+    padding:11px;
+    background:#cbae6d;
+    display: flex;
+    height: 10%;
+    }
+    .block1 {
+    width: 15%;
+    text-align: center;
+    float: left;
+    background-color: #e3d6ac;
+    border-right: 1px solid;
+    }
+    .block2 {
+    width: 70%;
+    text-align: center;
+    float: left;
+    background-color: #e3d6ac;
+    border-right: 1px solid;
+    }
+    .block3 {
+    width: 15%;
+    text-align: center;
+    float: left;
+    background-color: #e3d6ac;
+    }
