@@ -1,15 +1,15 @@
-html, body {
-    height: 100%;
+    body {
     margin: 0px;
+    padding: 0px;
     }
     div#container {
-    padding:11px;
+    padding:4px;
     background:#cbae6d;
     display: flex;
     height: 10%;
     }
     div#container2 {
-    padding:11px;
+    padding:1px;
     display: flex;
     height: 10%;
     background-color: red;
@@ -26,11 +26,11 @@ html, body {
     }
     .welcomDiv{
     width:100%;
-    padding:10px;
+    padding:8px;
     margin-left: 10px;
     }
     .footerDiv {
-    padding:11px;
+    padding:2px;
     background:#cbae6d;
     display: flex;
     height: 10%;
@@ -55,4 +55,7 @@ html, body {
     float: left;
     background-color: #e3d6ac;
     }
-
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+        line-height: 1;
+        width: 100%;
+    }
